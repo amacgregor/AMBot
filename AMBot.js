@@ -109,7 +109,7 @@ function clickGalaxy() {
 }
 
 function clickBoost() {
-	//$softReset.click();
+	$softReset.click();
 }
 
 var $tickSpeed = el("tickSpeed");
