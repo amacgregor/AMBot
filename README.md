@@ -9,13 +9,13 @@ Create a bookmarklet with the following URL:
 
 Chrome:
 ```
-javascript:var amBot = document.createElement('script');amBot.src="https://rawgit.com/technodestructo/AMBot/master/AMBot.js";document.getElementsByTagName('head')[0].appendChild(amBot);
+javascript:var amBot = document.createElement('script');amBot.src="https://rawgit.com/amacgregor/AMBot/master/AMBot.js";document.getElementsByTagName('head')[0].appendChild(amBot);
 ```
 Firefox:
 ```
 javascript: (function () { 
     var amBot = document.createElement('script'); 
-    amBot.setAttribute('src', 'https://rawgit.com/technodestructo/AMBot/master/AMBot.js');                  
+    amBot.setAttribute('src', 'https://rawgit.com/amacgregor/AMBot/master/AMBot.js');                  
   document.body.appendChild(amBot); 
  }());
  ```
@@ -25,7 +25,7 @@ Or copy paste into console:
 ```
 var amBot = document.createElement('script');
 
-amBot.src = "https://rawgit.com/technodestructo/AMBot/master/AMBot.js";
+amBot.src = "https://rawgit.com/amacgregor/AMBot/master/AMBot.js";
 
 document.getElementsByTagName('head')[0].appendChild(amBot);
 ```
